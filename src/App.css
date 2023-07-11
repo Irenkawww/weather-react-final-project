@@ -1,0 +1,14 @@
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.App a {
+    color: rgb(0, 135, 145);
+}
+.App a:hover {
+    color: rgb(0, 211, 215);
+    text-decoration: none;
+}
+.App footer{
+    font-size: 13px;
+}
