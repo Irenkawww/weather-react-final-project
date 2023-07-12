@@ -1,5 +1,6 @@
 import React from 'react';
 import ReadyDate from "./ReadyDate";
+import WeatherUnitConversion from "./WeatherUnitConversion";
 
 export default function WeatherInfo(props){
 return (
@@ -14,9 +15,8 @@ return (
          <img src={props.data.icon} 
          alt= {props.data.description}
           />
-          <span className='temprature'>{Math.round(props.data.temprature)}</span> 
-          <span className='unit'>°C |°F </span>
-        </div>
+          <WeatherUnitConversion celsius={props.data.temprature} />
+       </div>
         <div className='col-5'>
             <ul>
              <li>Humidity: {props.data.humidity} %</li>
