@@ -3,11 +3,6 @@
     padding: 7px;
     color: #85919f;
 }
-.WeatherForcast .day {
-background-color : #48bcc420;
-border-radius : 10px;
-padding: 10px 0;
-}
 .WeatherForcast img {
 margin: 7px auto;
 border-radius: 50%;
