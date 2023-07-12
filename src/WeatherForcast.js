@@ -26,6 +26,9 @@ if (ready){
     return (<div className='col-2' key={index}>
         <WeatherForecastDay data={dailyForecast} />
     </div>);}
+    else {
+return null;
+    }
     })}
     
    </div>
