@@ -23,7 +23,7 @@ if (ready){
    <div className='row'>
     {forecastData.map(function(dailyForecast, index) {
     if (index<6){
-    return (<div className='col-2' key={index}>
+    return (<div className='col-2 p-0' key={index}>
         <WeatherForecastDay data={dailyForecast} />
     </div>);}
     else {

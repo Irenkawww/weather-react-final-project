@@ -5,7 +5,8 @@
 }
 .WeatherForcast img {
 margin: 7px auto;
-width: auto;
+width: 100%;
+padding: 0;
 }
 .WeatherForcast .smallText {
     font-size: 14px;
